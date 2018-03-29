@@ -23,5 +23,5 @@ def binary_search(arr, target):
     return None
 
 # TEST
-print(binary_search([1,2,3,4,5], 3))
-print(binary_search([1,2,3,5,6], 4))
+assert binary_search([1,2,3,4,5], 3) == 2
+assert binary_search([1,2,3,5,6], 4) is None
