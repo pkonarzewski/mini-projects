@@ -1,23 +1,24 @@
 """
 Binnary search algorithm.
+Wyszukiwanie binarne.
 """
 import math
 
-def binary_search(arr, target):
+def binary_search(array, target):
     """Binary search algorithm."""
 
     low = 0
-    high = len(arr)-1
+    high = len(array)-1
     mid = 0
 
     while low <= high:
         mid = math.ceil((high + low)/2)
 
-        if arr[mid] == target:
+        if array[mid] == target:
             return mid
-        elif target < arr[mid]:
+        elif target < array[mid]:
             high = mid - 1
-        elif target > arr[mid]:
+        elif target > array[mid]:
             low = mid + 1
 
     return None
