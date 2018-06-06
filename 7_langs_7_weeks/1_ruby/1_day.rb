@@ -139,9 +139,9 @@ while q_number != q
 
     if q > q_number
         puts 'to big'
-    else
+    elsif q < q_number
         puts 'to small'
+    else
+        puts "Grats, number was #{q_number} "
     end
 end
-
-puts "Grats, number was #{q_number} "
