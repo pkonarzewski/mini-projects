@@ -1,3 +1,3 @@
 # Radio Dataset
 
-Import songs
+Importowanie piosenek z radia. Miało służyć do sprawdzenia hipotezy, że nowe piosenki są przeplatane starymi hitami, żeby lepiej wchodziły.
